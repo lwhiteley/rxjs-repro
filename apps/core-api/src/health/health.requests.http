@@ -1,0 +1,8 @@
+### Health check (main)
+GET http://localhost:3333/health
+
+### Health check (alive)
+GET http://localhost:3333/health/alive
+
+### Health check (ready)
+GET http://localhost:3333/health/ready
